@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    background: rgb(220, 220, 220);
+    justify-content: space-around;
+}
+
+.h_item{
+    width: 35%;
+    background: #5F9EA0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.afheader{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.af_item{
+    background: #5F9EA0;
+    height: 5vh;
+    flex: 0 1 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    background: rgb(220, 220, 220);
+    /* height: 68vh; */
+}
+
+.left-mid{
+    width: 25%;
+    height: 40vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.lm_item{
+    display: flex;
+    height: 4vh;
+    background: #5F9EA0;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.right-mid{
+    width: 75%;
+    height: 68vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.rm_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.footer{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: #5F9EA0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* monitors and laptops */
+@media screen and (min-width: 1000px){
+
+    .rm_item{
+        height: 150px;
+        width: 150px;
+        box-sizing: border-box;
+        border-radius: 150px;
+        border: 2px solid #5F9EA0;
+        overflow: hidden;
+        margin: 2vh 4vw 2vh 4vw;
+    }
+    .middle{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 999px){
+
+    .rm_item{
+        height: 130px;
+        width: 130px;
+        box-sizing: border-box;
+        border-radius: 130px;
+        border: 2px solid #5F9EA0;
+        overflow: hidden;
+        margin: 2vh 4vw 2vh 4vw;
+    }
+    .middle{
+        height: 68vh;
+    }
+}
+
+
+/* monitors and laptops */
+@media screen and (max-width: 768px){
+
+    .rm_item{
+        height: 100px;
+        width: 100px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: 2px solid #5F9EA0;
+        overflow: hidden;
+        margin: 1.5vh 7vw 1.5vh 7vw;
+    }
+    .middle{
+        height: 68vh;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .rm_item{
+        height: 130px;
+        width: 130px;
+        box-sizing: border-box;
+        border-radius: 130px;
+        border: 2px solid #5F9EA0;
+        overflow: hidden;
+        margin: 2vh 4vw 2vh 4vw;
+    }
+
+    /* .middle{
+        height: 68vh;
+    } */
+
+    
+}
